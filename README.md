@@ -1,33 +1,36 @@
-# audit-website · Agent Skill
+# Website Audit Skill
 
-audit-website：Audit websites for SEO, performance, security, technical, content, and 17 other issue categories with 240+ rules using the squirrelscan CLI。
+**Audit websites for SEO, performance, security, technical, content, and 17 other issue categories with 240+ rules using the squirrelscan CLI.**
 
-## 内容
+## Put it to work
 
-本公开副本包含 5 个来源与许可文件；技能正文、脚本和参考文件按实际保留的包结构组织。
+Audit websites for SEO, performance, security, technical, content, and 17 other issue categories with 240+ rules using the squirrelscan CLI.
 
-- [`LICENSE`](LICENSE)
-- [`ORIGINAL_README.md`](ORIGINAL_README.md)
-- [`SKILL.md`](SKILL.md)
-- [`agents/openai.yaml`](agents/openai.yaml)
-- [`references/OUTPUT-FORMAT.md`](references/OUTPUT-FORMAT.md)
+Start with the [skill instructions](SKILL.md). They describe the intended workflow, tools and inputs. Adapt them to the task and the permissions of the host you are using.
 
-## 使用入口
+This is retained skill material, not proof that a particular agent used it or that it improves results. Provider access and runtime requirements depend on the source package and your environment.
 
-先阅读 [`SKILL.md`](SKILL.md)，确认依赖、数据去向和权限要求后再使用。发布过程没有安装或执行此技能。
+## Current scope
 
-## 来源与许可
+This snapshot includes 5 source files. Original media, databases, private account records and other unprocessed attachments were not included in this text-and-source release.
 
-- 上游：[squirrelscan/skills](https://github.com/squirrelscan/skills)
-- [上游技能入口](https://github.com/squirrelscan/skills/blob/f558c34901cc4c263ec49a8fb0e2aab055de2bf4/audit-website/SKILL.md)
-- [上游许可证](https://github.com/squirrelscan/skills/blob/f558c34901cc4c263ec49a8fb0e2aab055de2bf4/LICENSE)；类型：MIT。
-- 来源依据为本机安装器保存的包来源记录；没有把它表述为与最新上游版本逐字一致。
-- 原许可证及署名保存在 LICENSE；新增发布介绍的许可单列在 LICENSE.publication-notes。
-- 包内另有来源的材料按其自身许可处理，未确认的嵌套复制目录仍保留在本地。
+This update improves the English presentation. It does not rerun the project, install a skill, reproduce an old test, or establish production readiness. Some original working documents retain their source language; machine-specific paths or setup assumptions may still need adaptation.
 
-## 当前状态与验证边界
+## Sources and license
 
-- 已完成公开副本整理、来源依据核对和许可证补齐。
-- 未执行技能、安装依赖或验证实际提效，不将静态检查表述为运行验收。
-- 隐私、凭证、原始聊天及尚未确认可公开的材料没有纳入。
-- [来源文件与哈希清单](SOURCE_MANIFEST.csv)
+The original source keeps the license and attribution supplied with the package. See the [retained license](LICENSE) and original notices. New presentation notes, where provided, are licensed separately; they do not relicense upstream work.
+
+The license for the added presentation notes is retained in [LICENSE.publication-notes](LICENSE.publication-notes).
+
+<details>
+<summary>Reference links retained from the source notes</summary>
+
+These links were present in the project material; they have not all been independently reviewed.
+
+- https://github.com/squirrelscan/skills
+- https://github.com/squirrelscan/skills/blob/f558c34901cc4c263ec49a8fb0e2aab055de2bf4/audit-website/SKILL.md
+- https://github.com/squirrelscan/skills/blob/f558c34901cc4c263ec49a8fb0e2aab055de2bf4/LICENSE
+
+</details>
+
+[Source paths and hashes](SOURCE_MANIFEST.csv)
